@@ -1,0 +1,286 @@
+/* CPM Intro Page Styles */
+
+/* Hero Section */
+.intro-hero {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.intro-hero img {
+  max-width: 400px;
+  margin-bottom: 1rem;
+}
+
+/* Gradient Banner */
+.intro-banner {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.intro-banner h2 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.intro-banner p {
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+
+/* Grid Layout */
+.intro-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.intro-grid-large {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+/* Card Styles */
+.intro-card {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.intro-card-green {
+  background: #e8f5e8;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #c3e6c3;
+}
+
+.intro-card-white {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border: 1px solid #e9ecef;
+}
+
+.intro-card-white ul {
+  line-height: 1.6;
+}
+
+/* Color-coded headings */
+.intro-card-white h3.blue {
+  color: #2563eb;
+  margin-bottom: 1rem;
+}
+
+.intro-card-white h3.green {
+  color: #16a34a;
+  margin-bottom: 1rem;
+}
+
+.intro-card-white h3.red {
+  color: #dc2626;
+  margin-bottom: 1rem;
+}
+
+.intro-card-white h3.purple {
+  color: #7c3aed;
+  margin-bottom: 1rem;
+}
+
+.intro-card-white h3.orange {
+  color: #ea580c;
+  margin-bottom: 1rem;
+}
+
+.intro-card-white h3.teal {
+  color: #0891b2;
+  margin-bottom: 1rem;
+}
+
+.intro-card-white h3.pink {
+  color: #be123c;
+  margin-bottom: 1rem;
+}
+
+.intro-card-white h3.emerald {
+  color: #059669;
+  margin-bottom: 1rem;
+}
+
+/* Objectives Section */
+.intro-objectives {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.intro-objectives h3 {
+  color: white;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.intro-objectives .objectives-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.intro-objectives .objective-item {
+  text-align: center;
+}
+
+.intro-objectives .objective-item .emoji {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* System Scope Section */
+.intro-scope {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 12px;
+  border: 2px solid #e9ecef;
+  margin-bottom: 2rem;
+}
+
+.intro-scope h3 {
+  text-align: center;
+  color: #495057;
+  margin-bottom: 2rem;
+}
+
+.intro-scope .scope-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.intro-scope .scope-item {
+  text-align: center;
+  padding: 1rem;
+}
+
+.intro-scope .scope-item .emoji {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+/* Getting Started Section */
+.intro-getting-started {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.intro-getting-started h3 {
+  color: white;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.intro-getting-started .getting-started-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.intro-getting-started .getting-started-item {
+  text-align: center;
+}
+
+.intro-getting-started .getting-started-item .emoji {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.intro-getting-started .getting-started-item p {
+  font-size: 0.9rem;
+  margin: 0.5rem 0 0 0;
+}
+
+/* Documentation Structure Section */
+.intro-docs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.intro-docs-card {
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid;
+  text-align: center;
+}
+
+.intro-docs-card .emoji {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.intro-docs-card.blue {
+  background: #e3f2fd;
+  border-color: #bbdefb;
+}
+
+.intro-docs-card.purple {
+  background: #f3e5f5;
+  border-color: #e1bee7;
+}
+
+.intro-docs-card.green {
+  background: #e8f5e8;
+  border-color: #c8e6c9;
+}
+
+.intro-docs-card.orange {
+  background: #fff3e0;
+  border-color: #ffcc02;
+}
+
+/* Final Call to Action */
+.intro-cta {
+  text-align: center;
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid #e9ecef;
+}
+
+.intro-cta h3 {
+  color: #495057;
+  margin-bottom: 1rem;
+}
+
+.intro-cta p {
+  font-size: 1.1rem;
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+}
+
+.intro-cta .emoji-row {
+  font-size: 2rem;
+}
+
+/* Utility Classes */
+.intro-center {
+  text-align: center;
+}
+
+.intro-description {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
