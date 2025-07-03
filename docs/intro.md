@@ -2,12 +2,10 @@
 sidebar_position: 1
 ---
 
-import './../../src/css/intro.css';
-
 # 🚀 CPM - Continuous Performance Management System
 
 <div className="intro-hero">
-  <img src="/img/cpm-hero.svg" alt="CPM System" />
+  <img src="/img/docusaurus.png" alt="CPM System" />
 </div>
 
 Welcome to the **Continuous Performance Management (CPM) System** documentation. This comprehensive guide will help you understand and implement our advanced employee appraisal system that streamlines and automates the performance evaluation process.
@@ -129,8 +127,6 @@ By providing clear performance insights, the CPM system ensures that employees h
   <h3 className="emerald">🎯 Goal Setting & Alignment</h3>
   <ul>
     <li><strong>Collaborative Goals:</strong> Manager-employee goal alignment</li>
-    <li><strong>OKR Integration:</strong> Objectives and Key Results framework</li>
-    <li><strong>SMART Goals:</strong> Specific, measurable, achievable targets</li>
   </ul>
 </div>
 
@@ -181,25 +177,20 @@ By providing clear performance insights, the CPM system ensures that employees h
     <div className="scope-item">
       <div className="emoji">🔌</div>
       <h4>Data Integration</h4>
-      <p>Seamless integration with Jira, TFS, MS Project Online via Kafka</p>
+      <p>Seamless integration with Webhr, Worktracker, Jira, TFS, MS Project Online, Salesforce via Kafka</p>
     </div>
     
     <div className="scope-item">
       <div className="emoji">📈</div>
       <h4>Performance Management</h4>
-      <p>Complete KPI, KRA, competency, and rating management</p>
+      <p>Complete KPI and rating management</p>
     </div>
     
-    <div className="scope-item">
-      <div className="emoji">🔄</div>
-      <h4>Evaluation Workflow</h4>
-      <p>Self-rating with supervisor overrides and approval processes</p>
-    </div>
     
     <div className="scope-item">
       <div className="emoji">🤖</div>
       <h4>Process Automation</h4>
-      <p>Workflow-driven ingestion and approval automation</p>
+      <p>Workflow-driven ingestion and calculation automation</p>
     </div>
     
     <div className="scope-item">
@@ -228,46 +219,7 @@ By providing clear performance insights, the CPM system ensures that employees h
   </div>
 </div>
 
-## 🚀 Getting Started
-
-<div className="intro-getting-started">
-  <h3>
-    Ready to Transform Your Performance Management?
-  </h3>
-  
-  <div className="getting-started-grid">
-    <div className="getting-started-item">
-      <div className="emoji">🎯</div>
-      <strong>Leadership Commitment</strong>
-      <p>Digital transformation support</p>
-    </div>
-    
-    <div className="getting-started-item">
-      <div className="emoji">🔧</div>
-      <strong>System Integration</strong>
-      <p>HR and project management systems</p>
-    </div>
-    
-    <div className="getting-started-item">
-      <div className="emoji">🎓</div>
-      <strong>Training Program</strong>
-      <p>Managers, supervisors, and employees</p>
-    </div>
-    
-    <div className="getting-started-item">
-      <div className="emoji">📢</div>
-      <strong>Clear Communication</strong>
-      <p>Automated approach adoption</p>
-    </div>
-    
-    <div className="getting-started-item">
-      <div className="emoji">🏗️</div>
-      <strong>Technical Infrastructure</strong>
-      <p>Supporting system architecture</p>
-    </div>
-  </div>
-</div>
-
+<!-- 
 ## 📚 Documentation Structure
 
 <div className="intro-docs-grid">
@@ -295,12 +247,5 @@ By providing clear performance insights, the CPM system ensures that employees h
     <p>Advanced topics and best practices</p>
   </div>
 </div>
-
-<div className="intro-cta">
-  <h3>🌟 Start Your CPM Journey Today!</h3>
-  <p>
-    Navigate through the sidebar to explore each section and discover how CPM can transform your organization's performance management.
-  </p>
-  <div className="emoji-row">🚀 📈 💼 🎯</div>
-</div>
+-->
 

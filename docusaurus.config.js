@@ -81,10 +81,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'CPM Documentation',
+        title: 'CPM',
         logo: {
-          alt: 'CPM Logo',
-          src: 'img/logo.svg',
+          alt: 'TPS Logo',
+          src: 'img/TPS_Logo.png',
         },
         items: [
           {
