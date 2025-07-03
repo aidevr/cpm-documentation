@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcpm=self.webpackChunkcpm||[]).push([[903],{1912:t=>{t.exports=JSON.parse('{"blogBasePath":"/cpm-documentation/blog","blogTitle":"Blog","authorsListPath":"/cpm-documentation/blog/authors"}')}}]);

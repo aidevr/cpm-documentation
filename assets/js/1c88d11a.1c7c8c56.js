@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcpm=self.webpackChunkcpm||[]).push([[404],{971:e=>{e.exports=JSON.parse('{"authors":[{"name":"CPM Team","title":"Performance Management Specialists","url":"https://github.com/aidevr/cpm-documentation","imageURL":"https://github.com/aidevr.png","key":"admin","page":null,"count":1}]}')}}]);

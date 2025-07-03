@@ -1,0 +1,6 @@
+# Static files for CPM Documentation
+# This directory contains static assets like images, icons, and other files
+# that are copied directly to the build folder during the build process.
+
+# To use a custom domain, replace the content of this file with your domain name
+# For example: cpm-docs.yourdomain.com

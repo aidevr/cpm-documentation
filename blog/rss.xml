@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>CPM - Continuous Performance Management Blog</title>
+        <link>https://aidevr.github.io/cpm-documentation/blog</link>
+        <description>CPM - Continuous Performance Management Blog</description>
+        <lastBuildDate>Wed, 01 Jan 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Welcome to CPM Documentation]]></title>
+            <link>https://aidevr.github.io/cpm-documentation/blog/welcome-to-cpm</link>
+            <guid>https://aidevr.github.io/cpm-documentation/blog/welcome-to-cpm</guid>
+            <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to the Continuous Performance Management (CPM) System documentation! We're excited to share this comprehensive guide that will help you understand and implement our advanced employee appraisal system.]]></description>
+            <content:encoded><![CDATA[<p>Welcome to the Continuous Performance Management (CPM) System documentation! We're excited to share this comprehensive guide that will help you understand and implement our advanced employee appraisal system.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-cpm">What is CPM?<a href="https://aidevr.github.io/cpm-documentation/blog/welcome-to-cpm#what-is-cpm" class="hash-link" aria-label="Direct link to What is CPM?" title="Direct link to What is CPM?">​</a></h2>
+<p>The CPM System is designed to streamline and automate the employee appraisal process, enabling organizations to evaluate employee performance efficiently, fairly, and transparently using data-driven evaluations.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="key-features">Key Features<a href="https://aidevr.github.io/cpm-documentation/blog/welcome-to-cpm#key-features" class="hash-link" aria-label="Direct link to Key Features" title="Direct link to Key Features">​</a></h2>
+<ul>
+<li><strong>Automated Performance Tracking</strong>: Real-time monitoring of goals and tasks</li>
+<li><strong>Data-Driven Insights</strong>: Advanced analytics powered by Elasticsearch</li>
+<li><strong>Seamless Integration</strong>: Works with Jira, TFS, MS Project Online via Kafka</li>
+<li><strong>Secure Access Control</strong>: Role-based permissions and enterprise SSO</li>
+<li><strong>Transparent Evaluation</strong>: Clear performance insights for employees and managers</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="getting-started">Getting Started<a href="https://aidevr.github.io/cpm-documentation/blog/welcome-to-cpm#getting-started" class="hash-link" aria-label="Direct link to Getting Started" title="Direct link to Getting Started">​</a></h2>
+<p>To get started with CPM, check out our <a href="https://aidevr.github.io/cpm-documentation/docs/intro">Introduction</a> which covers:</p>
+<ul>
+<li>System overview and objectives</li>
+<li>Core functionalities</li>
+<li>Implementation requirements</li>
+<li>Documentation structure</li>
+</ul>
+<p>We're committed to helping you transform your performance management process. Happy reading!</p>]]></content:encoded>
+            <category>cpm</category>
+            <category>performance-management</category>
+            <category>welcome</category>
+        </item>
+    </channel>
+</rss>

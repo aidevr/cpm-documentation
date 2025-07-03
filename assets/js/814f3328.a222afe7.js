@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcpm=self.webpackChunkcpm||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome to CPM Documentation","permalink":"/cpm-documentation/blog/welcome-to-cpm","unlisted":false,"date":"2025-01-01T00:00:00.000Z"}]}')}}]);
