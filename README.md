@@ -83,8 +83,6 @@ GIT_USER=<Your GitHub username> yarn deploy
 
 - `/docs/` - Main documentation content
   - `intro.md` - Introduction and overview
-  - `tutorial-basics/` - Basic tutorials
-  - `tutorial-extras/` - Advanced topics
   - `Product_Factory/` - Product development specific guides
 - `/blog/` - Blog posts and updates
 - `/src/` - Custom React components and styles
