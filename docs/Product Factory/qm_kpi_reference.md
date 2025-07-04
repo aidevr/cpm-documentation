@@ -123,8 +123,8 @@ This mapping helps determine the number of defects per module relative to the QA
 |------|---------|
 | **Module Mapping** | Jira defect module field is matched against TFS task modules to identify QA scope |
 | **Time Window** | Only TFS tasks completed in the past 6 months are considered for defect density calculation |
-| **Calculation** | Defect Density = Number of defects in module / QA tasks completed for that module |
-| **Defect Types** | Includes defects found in SIT, UAT, and Production environments |
+| **Calculation** | Defect Density = Number of defects in module in production QA'ed by particular resource in TFS
+| **Defect Types** | Production environments |
 
 
 ### Level 2 Scoring Rules
