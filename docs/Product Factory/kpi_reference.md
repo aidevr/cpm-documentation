@@ -293,7 +293,7 @@ Number of medium severity bugs reported in task(s)
 
 ---
 
-## Number of Low Severity Bug (TFS)
+## Number of Low Severity Bugs (TFS)
 Number of low severity bugs reported in task(s)
 
 - **Data Source:** TFS
@@ -301,9 +301,9 @@ Number of low severity bugs reported in task(s)
 - **Formula:** `Number of low severity bugs reported in task(s)`
 
 **Weightage by Level**
-| kpi_unique_name                  | 1   |   2 |   3 |   4 |   5 |
-|:---------------------------------|:----|----:|----:|----:|----:|
-| Number of Low Severity Bug (TFS) | —   |   2 |   2 |   2 |   2 |
+| kpi_unique_name                   | 1   |   2 |   3 |   4 |   5 |
+|:----------------------------------|:----|----:|----:|----:|----:|
+| Number of Low Severity Bugs (TFS) | —   |   2 |   2 |   2 |   2 |
 
 
 ### How Bug-Related KPIs Are Calculated — Clarified
