@@ -5,7 +5,7 @@ sidebar_position: 1
 # 🚀 CPM - Continuous Performance Management System
 
 <div className="intro-hero">
-  <img src="/img/docusaurus.png" alt="CPM System" />
+  <img src="/cpm-documentation/img/docusaurus.png" alt="CPM System" />
 </div>
 
 Welcome to the **Continuous Performance Management (CPM) System** documentation. This comprehensive guide will help you understand and implement our advanced employee appraisal system that streamlines and automates the performance evaluation process.
