@@ -2,6 +2,7 @@
 
 ## 📋 Workflow and Data Rules
 
+
 | Ref | Guideline / Rule | Notes & Actions |
 |-----|------------------|-----------------|
 | **1** | **⚙️ Agile Board Configuration** – Every team board must use Agile workflow so features are tagged **Large / Medium / Small** By default all are considered **MEDIUM**| i. Decide a default project size for other projects. ii. Need to decide a field for feature size in tfs. |
