@@ -128,7 +128,7 @@ Intermediate sprint boundaries have no impact; only the final completion date an
 
 1. Copy the **Task ID / PR ID / Jira Ticket ID**.  
 
-2. Verify match what you see in TFS or JIRA.
+2. Verify it matches what you see in TFS or JIRA.
 
 Discrepancies should be raised via the normal JIRA support flow 
 
@@ -142,19 +142,19 @@ If they differ, notify your **supervisor** and request an update of your JIRA/TF
 ---
 
 ### 15. How do we track tasks put **On Hold**?  
-When tfs task is paused
+When a TFS task is paused
 
 1. Change the task status to **On Hold**.  
 2. System to record **Hold-Start** and **Hold-End** dates.  
 
- Hold time will be excluded from all cycle-time KPIs, current the hold is required to be added in the system and system will handle the hold state accordingly.
+ Hold time will be excluded from all cycle-time KPIs. Currently, the hold is required to be added in the system and system will handle the hold state accordingly.
 
 ---
 
 ### 16. What happens if a JIRA issue has multiple **Level-3** assignees?  
 The KPI engine will soon credit **all** L3 assignees—not just the most recent one.  
 This is scheduled as an enhancement before August 2025.
-Currenlty the last assignee to work on will be impacted. 
+Currently the last assignee to work on it will be impacted. 
 
 ---
 
