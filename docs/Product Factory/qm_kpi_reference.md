@@ -198,7 +198,7 @@ Number of missed test cases
 | Rule | Details |
 |------|---------|
 | **Missed Cases Identification** | Each comment by QA against a test case indicates a missed scenario or inadequate coverage |
-|| **Comment Count** | Number of  Comments = missed test cases |
+| **Comment Count** | Number of  Comments = missed test cases |
 | **Scoring Impact** | Higher number of missed cases results in lower quality scores |
 
 ### Level 2 Scoring Rules
