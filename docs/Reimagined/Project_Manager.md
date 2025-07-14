@@ -1,6 +1,6 @@
 # 💼 Project Manager KPI Reference Guide
 
-*Generated on: July 14, 2025 at 01:59 PM*
+*Generated on: July 14, 2025 at 02:05 PM*
 
 ## 🎯 Executive Summary
 
@@ -45,7 +45,7 @@ This document provides comprehensive details for **13 Key Performance Indicators
 
 **📝 Description:** Profitability of Project
 
-**🧮 Formula:** `% Cost of Project / Revenue of Project`
+**🧮 Formula:** `Project Profitability (%) = (Cost of Project / Revenue of Project) × 100`
 
 **📐 Calculation Details:**
 
@@ -113,7 +113,7 @@ This document provides comprehensive details for **13 Key Performance Indicators
 
 **📝 Description:** Average Utilization Margin of Resources on Revenue Generating Tasks
 
-**🧮 Formula:** `Standard formula for RUM Calculation`
+**🧮 Formula:** `Utilization Margin (%) = (Billable Hours Logged by PM / Total Available Hours of PM) × 100`
 
 **📐 Calculation Details:**
 
@@ -149,7 +149,7 @@ This document provides comprehensive details for **13 Key Performance Indicators
 
 **📝 Description:** Speed at which the project is consuming its budget.
 
-**🧮 Formula:** `% (Budget Consumed - Budget Estimated) / Budget Estimated`
+**🧮 Formula:** `Gross Burn Rate (%) = (Actual Cost − Budget Estimated) / Budget Estimated × 100`
 
 **📐 Calculation Details:**
 
@@ -185,7 +185,7 @@ This document provides comprehensive details for **13 Key Performance Indicators
 
 **📝 Description:** Ensure milestones are achieved and invoices are raised timely
 
-**🧮 Formula:** `% of Milestones achieved on or before time`
+**🧮 Formula:** `if (ExceptionExists) { if (Reason=="Customer | Non-TPS") Realized else NotRealized } else Realized`
 
 **📐 Calculation Details:**
 
@@ -221,7 +221,7 @@ This document provides comprehensive details for **13 Key Performance Indicators
 
 **📝 Description:** Ensure Effective Pulse entries for Project
 
-**🧮 Formula:** `% of hours filled`
+**🧮 Formula:** `Pulse Compliance Rate (%) = (Total Hours Billed by PM / PM’s Total Available Capacity) × 100`
 
 **📐 Calculation Details:**
 
@@ -257,7 +257,7 @@ This document provides comprehensive details for **13 Key Performance Indicators
 
 **📝 Description:** Difference between planned and actual project timelines.
 
-**🧮 Formula:** `% of Timeline Difference`
+**🧮 Formula:** `if (ActualDate>BaselineDate) { if (Reason=="Customer Delay") OnTime else Delayed } else OnTime`
 
 **📐 Calculation Details:**
 
@@ -469,12 +469,6 @@ This document provides comprehensive details for **13 Key Performance Indicators
 | 🟠 2 | equals | 3 | Project Forensic |
 | 🔴 1 | equals | 3 | Project Forensic |
 
----
-
-
-## 📞 Support & Contact
-
-For questions about this Project Manager KPI documentation, please contact the Performance Management team.
 
 ---
 *This document was automatically generated from Project Manager KPI specifications on July 14, 2025*
