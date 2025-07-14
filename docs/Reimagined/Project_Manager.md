@@ -1,6 +1,6 @@
 # 💼 Project Manager KPI Reference Guide
 
-*Generated on: July 10, 2025 at 06:48 PM*
+*Generated on: July 14, 2025 at 01:59 PM*
 
 ## 🎯 Executive Summary
 
@@ -18,7 +18,11 @@ This document provides comprehensive details for **13 Key Performance Indicators
 - **Weekly:** 1 KPIs
 
 ### 💾 Data Sources
-- **TFS:** 13 KPIs
+- **EPM Sharepoint:** 4 KPIs
+- **EPM Sharepoint, Power BI Dashboard:** 1 KPIs
+- **N/A:** 3 KPIs
+- **Power BI dashboard:** 1 KPIs
+- **TFS:** 4 KPIs
 
 ### 📏 Measure Types
 - **Percentage:** 13 KPIs
@@ -138,7 +142,7 @@ This document provides comprehensive details for **13 Key Performance Indicators
 | **KPI ID** | 821 |
 | **Weightage** | 5% |
 | **Measure** | Percentage |
-| **Data Source** | TFS |
+| **Data Source** | EPM Sharepoint, Power BI Dashboard |
 | **Frequency** | Weekly |
 | **Automation** | ✅ Automated |
 | **Default Score** | 5 |
@@ -174,7 +178,7 @@ This document provides comprehensive details for **13 Key Performance Indicators
 | **KPI ID** | 822 |
 | **Weightage** | 15% |
 | **Measure** | Percentage |
-| **Data Source** | TFS |
+| **Data Source** | EPM Sharepoint |
 | **Frequency** | Project End |
 | **Automation** | ✅ Automated |
 | **Default Score** | 0 |
@@ -182,6 +186,10 @@ This document provides comprehensive details for **13 Key Performance Indicators
 **📝 Description:** Ensure milestones are achieved and invoices are raised timely
 
 **🧮 Formula:** `% of Milestones achieved on or before time`
+
+**📐 Calculation Details:**
+
+**KPI Name:** Revenue Realization<br /> <br />**Purpose:** Track the percentage of projects where revenue is successfully realized based on FSD sign-off exceptions and reasons, highlighting internal vs. customer blockers.<br /> <br />**Formula:** `if (ExceptionExists) { if (Reason=="Customer | Non-TPS") Realized else NotRealized } else Realized`; `Revenue Realization % = (ProjectsRealized/TotalProjects) × 100`<br /> <br />**Data Sources:**<br />**EPM:** FSD sign-off exception status; exception reasons<br /> <br />**Calculation Steps:** 1. Check FSD exception in EPM; 2. If no exception mark Realized; 3. If exception and reason="Customer/Non-TPS" mark Realized else NotRealized; 4. Compute (RealizedProjects/TotalProjects)×100<br />
 
 **👥 Applicability:**
 
@@ -206,7 +214,7 @@ This document provides comprehensive details for **13 Key Performance Indicators
 | **KPI ID** | 823 |
 | **Weightage** | 5% |
 | **Measure** | Percentage |
-| **Data Source** | TFS |
+| **Data Source** | Power BI dashboard |
 | **Frequency** | Project End |
 | **Automation** | ✅ Automated |
 | **Default Score** | 0 |
@@ -235,14 +243,14 @@ This document provides comprehensive details for **13 Key Performance Indicators
 
 ---
 
-### 📅 7. Scheduled Variance - Planned vs Actual
+### 📊 7. Schedule Variance - Planned vs Actual
 
 | Attribute | Value |
 |-----------|-------|
 | **KPI ID** | 824 |
 | **Weightage** | 5% |
 | **Measure** | Percentage |
-| **Data Source** | TFS |
+| **Data Source** | EPM Sharepoint |
 | **Frequency** | Project End |
 | **Automation** | ✅ Automated |
 | **Default Score** | 5 |
@@ -253,7 +261,7 @@ This document provides comprehensive details for **13 Key Performance Indicators
 
 **📐 Calculation Details:**
 
-**Purpose:** Quantify the variance between planned (budgeted) and actual effort across all Development Manager (DM) projects.<br /> <br />**Formula:** `Budget Variance (%) = (Actual Effort – Budgeted Effort) / Budgeted Effort × 100`<br /> <br />**Data Sources:** EPM SharePoint “DMs Project” list; Planned Efforts (Budgeted Effort); Completed Work Efforts (Actual Effort)<br /> <br />**Calculation Steps:** 1. Retrieve all “DMs Project” entries from SharePoint;<br /> 2. Pull Planned Efforts and Completed Work Efforts for each project;<br /> 3. Compute variance percentage using the formula;<br /> 4.<br />**Aggregate:** sum individual variances and calculate their average;<br /> 5. Multiply average variance by the KPI’s weight.<br />
+**KPI Name:** Scheduled Variance – Planned vs Actual<br /> <br />**Purpose:** Assess whether projects meet planned timelines by comparing baseline vs. actual completion dates, treating customer delays as on time.<br /> <br />**Formula:** `if (ActualDate>BaselineDate) { if (Reason=="Customer Delay") OnTime else Delayed } else OnTime`; `% On-Time Delivery = (OnTimeProjects/TotalProjects)×100`<br /> <br />**Data Sources:**<br />**EPM:** project list; baseline completion dates; actual completion dates; delay reasons<br /> <br />**Calculation Steps:** 1. Retrieve projects from EPM; 2. For each, compare actual vs. baseline date; 3. If actual≤baseline or (actual&gt;baseline and reason=="Customer Delay") mark OnTime else Delayed; 4. Compute (OnTimeProjects/TotalProjects)×100<br />
 
 **👥 Applicability:**
 
@@ -310,7 +318,7 @@ This document provides comprehensive details for **13 Key Performance Indicators
 | **KPI ID** | 826 |
 | **Weightage** | 10% |
 | **Measure** | Percentage |
-| **Data Source** | TFS |
+| **Data Source** | EPM Sharepoint |
 | **Frequency** | Project End |
 | **Automation** | 👤 Manual |
 | **Default Score** | 0 |
@@ -342,7 +350,7 @@ This document provides comprehensive details for **13 Key Performance Indicators
 | **KPI ID** | 827 |
 | **Weightage** | 5% |
 | **Measure** | Percentage |
-| **Data Source** | TFS |
+| **Data Source** | N/A |
 | **Frequency** | Project End |
 | **Automation** | 👤 Manual |
 | **Default Score** | 0 |
@@ -374,7 +382,7 @@ This document provides comprehensive details for **13 Key Performance Indicators
 | **KPI ID** | 828 |
 | **Weightage** | 5% |
 | **Measure** | Percentage |
-| **Data Source** | TFS |
+| **Data Source** | N/A |
 | **Frequency** | Project End |
 | **Automation** | 👤 Manual |
 | **Default Score** | 0 |
@@ -406,7 +414,7 @@ This document provides comprehensive details for **13 Key Performance Indicators
 | **KPI ID** | 829 |
 | **Weightage** | 5% |
 | **Measure** | Percentage |
-| **Data Source** | TFS |
+| **Data Source** | N/A |
 | **Frequency** | Project End |
 | **Automation** | 👤 Manual |
 | **Default Score** | 0 |
@@ -438,7 +446,7 @@ This document provides comprehensive details for **13 Key Performance Indicators
 | **KPI ID** | 830 |
 | **Weightage** | 5% |
 | **Measure** | Percentage |
-| **Data Source** | TFS |
+| **Data Source** | EPM Sharepoint |
 | **Frequency** | Project End |
 | **Automation** | 👤 Manual |
 | **Default Score** | 0 |
@@ -464,5 +472,9 @@ This document provides comprehensive details for **13 Key Performance Indicators
 ---
 
 
+## 📞 Support & Contact
 
-*This document was automatically generated from Project Manager KPI specifications on July 10, 2025*
+For questions about this Project Manager KPI documentation, please contact the Performance Management team.
+
+---
+*This document was automatically generated from Project Manager KPI specifications on July 14, 2025*
