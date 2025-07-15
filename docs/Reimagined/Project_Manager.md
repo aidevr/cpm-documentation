@@ -1,6 +1,6 @@
-# 💼 Project Manager KPI Reference Guide
+# 🎯 Project Manager KPI Reference Guide
 
-*Generated on: July 14, 2025 at 02:05 PM*
+*Generated on: July 15, 2025 at 02:57 PM*
 
 ## 🎯 Executive Summary
 
@@ -18,14 +18,13 @@ This document provides comprehensive details for **13 Key Performance Indicators
 - **Weekly:** 1 KPIs
 
 ### 💾 Data Sources
-- **EPM Sharepoint:** 4 KPIs
-- **EPM Sharepoint, Power BI Dashboard:** 1 KPIs
+- **BI dashboard:** 1 KPIs
+- **EPM:** 5 KPIs
 - **N/A:** 3 KPIs
-- **Power BI dashboard:** 1 KPIs
 - **TFS:** 4 KPIs
 
 ### 📏 Measure Types
-- **Percentage:** 13 KPIs
+- **percentage:** 13 KPIs
 
 ---
 
@@ -37,7 +36,7 @@ This document provides comprehensive details for **13 Key Performance Indicators
 |-----------|-------|
 | **KPI ID** | 818 |
 | **Weightage** | 10% |
-| **Measure** | Percentage |
+| **Measure** | percentage |
 | **Data Source** | TFS |
 | **Frequency** | Quarterly |
 | **Automation** | ✅ Automated |
@@ -73,7 +72,7 @@ This document provides comprehensive details for **13 Key Performance Indicators
 |-----------|-------|
 | **KPI ID** | 819 |
 | **Weightage** | 10% |
-| **Measure** | Percentage |
+| **Measure** | percentage |
 | **Data Source** | TFS |
 | **Frequency** | Quarterly |
 | **Automation** | ✅ Automated |
@@ -105,7 +104,7 @@ This document provides comprehensive details for **13 Key Performance Indicators
 |-----------|-------|
 | **KPI ID** | 820 |
 | **Weightage** | 10% |
-| **Measure** | Percentage |
+| **Measure** | percentage |
 | **Data Source** | TFS |
 | **Frequency** | Project End |
 | **Automation** | ✅ Automated |
@@ -141,8 +140,8 @@ This document provides comprehensive details for **13 Key Performance Indicators
 |-----------|-------|
 | **KPI ID** | 821 |
 | **Weightage** | 5% |
-| **Measure** | Percentage |
-| **Data Source** | EPM Sharepoint, Power BI Dashboard |
+| **Measure** | percentage |
+| **Data Source** | EPM |
 | **Frequency** | Weekly |
 | **Automation** | ✅ Automated |
 | **Default Score** | 5 |
@@ -177,8 +176,8 @@ This document provides comprehensive details for **13 Key Performance Indicators
 |-----------|-------|
 | **KPI ID** | 822 |
 | **Weightage** | 15% |
-| **Measure** | Percentage |
-| **Data Source** | EPM Sharepoint |
+| **Measure** | percentage |
+| **Data Source** | EPM |
 | **Frequency** | Project End |
 | **Automation** | ✅ Automated |
 | **Default Score** | 0 |
@@ -213,8 +212,8 @@ This document provides comprehensive details for **13 Key Performance Indicators
 |-----------|-------|
 | **KPI ID** | 823 |
 | **Weightage** | 5% |
-| **Measure** | Percentage |
-| **Data Source** | Power BI dashboard |
+| **Measure** | percentage |
+| **Data Source** | BI dashboard |
 | **Frequency** | Project End |
 | **Automation** | ✅ Automated |
 | **Default Score** | 0 |
@@ -243,14 +242,14 @@ This document provides comprehensive details for **13 Key Performance Indicators
 
 ---
 
-### 📊 7. Schedule Variance - Planned vs Actual
+### 📅 7. Schedule Variance - Planned vs Actual
 
 | Attribute | Value |
 |-----------|-------|
 | **KPI ID** | 824 |
 | **Weightage** | 5% |
-| **Measure** | Percentage |
-| **Data Source** | EPM Sharepoint |
+| **Measure** | percentage |
+| **Data Source** | EPM |
 | **Frequency** | Project End |
 | **Automation** | ✅ Automated |
 | **Default Score** | 5 |
@@ -279,13 +278,13 @@ This document provides comprehensive details for **13 Key Performance Indicators
 
 ---
 
-### 🎯 8. Ontime Completion Rate
+### ✅ 8. Ontime Completion Rate
 
 | Attribute | Value |
 |-----------|-------|
 | **KPI ID** | 825 |
 | **Weightage** | 10% |
-| **Measure** | Percentage |
+| **Measure** | percentage |
 | **Data Source** | TFS |
 | **Frequency** | Project End |
 | **Automation** | 👤 Manual |
@@ -317,8 +316,8 @@ This document provides comprehensive details for **13 Key Performance Indicators
 |-----------|-------|
 | **KPI ID** | 826 |
 | **Weightage** | 10% |
-| **Measure** | Percentage |
-| **Data Source** | EPM Sharepoint |
+| **Measure** | percentage |
+| **Data Source** | EPM |
 | **Frequency** | Project End |
 | **Automation** | 👤 Manual |
 | **Default Score** | 0 |
@@ -349,7 +348,7 @@ This document provides comprehensive details for **13 Key Performance Indicators
 |-----------|-------|
 | **KPI ID** | 827 |
 | **Weightage** | 5% |
-| **Measure** | Percentage |
+| **Measure** | percentage |
 | **Data Source** | N/A |
 | **Frequency** | Project End |
 | **Automation** | 👤 Manual |
@@ -381,7 +380,7 @@ This document provides comprehensive details for **13 Key Performance Indicators
 |-----------|-------|
 | **KPI ID** | 828 |
 | **Weightage** | 5% |
-| **Measure** | Percentage |
+| **Measure** | percentage |
 | **Data Source** | N/A |
 | **Frequency** | Project End |
 | **Automation** | 👤 Manual |
@@ -413,7 +412,7 @@ This document provides comprehensive details for **13 Key Performance Indicators
 |-----------|-------|
 | **KPI ID** | 829 |
 | **Weightage** | 5% |
-| **Measure** | Percentage |
+| **Measure** | percentage |
 | **Data Source** | N/A |
 | **Frequency** | Project End |
 | **Automation** | 👤 Manual |
@@ -445,8 +444,8 @@ This document provides comprehensive details for **13 Key Performance Indicators
 |-----------|-------|
 | **KPI ID** | 830 |
 | **Weightage** | 5% |
-| **Measure** | Percentage |
-| **Data Source** | EPM Sharepoint |
+| **Measure** | percentage |
+| **Data Source** | EPM |
 | **Frequency** | Project End |
 | **Automation** | 👤 Manual |
 | **Default Score** | 0 |
@@ -469,6 +468,12 @@ This document provides comprehensive details for **13 Key Performance Indicators
 | 🟠 2 | equals | 3 | Project Forensic |
 | 🔴 1 | equals | 3 | Project Forensic |
 
+---
+
+
+## 📞 Support & Contact
+
+For questions about this Project Manager KPI documentation, please contact the Performance Management team.
 
 ---
-*This document was automatically generated from Project Manager KPI specifications on July 14, 2025*
+*This document was automatically generated from Project Manager KPI specifications on July 15, 2025*

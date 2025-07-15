@@ -1,10 +1,10 @@
-# 📋 QIS (Quality Implementation Support) KPI Reference Guide
+# 🎯 QIS KPI Reference Guide
 
-*Generated on: July 09, 2025 at 05:59 PM*
+*Generated on: July 15, 2025 at 03:02 PM*
 
 ## 🎯 Executive Summary
 
-This document provides comprehensive details for **18 Key Performance Indicators (KPIs)** used to evaluate Quality Inspection Specialist performance for **System Engineer** role.
+This document provides comprehensive details for **18 Key Performance Indicators (KPIs)** used to evaluate QIS performance for **System Engineer** role.
 
 ### 📈 Summary Statistics
 - **Total KPIs:** 18
@@ -22,6 +22,10 @@ This document provides comprehensive details for **18 Key Performance Indicators
 ### 💾 Data Sources
 - **JIRA:** 18 KPIs
 
+### 📏 Measure Types
+- **count:** 7 KPIs
+- **percentage:** 11 KPIs
+
 ---
 
 ## 📋 Detailed KPI Specifications
@@ -32,7 +36,7 @@ This document provides comprehensive details for **18 Key Performance Indicators
 |-----------|-------|
 | **KPI ID** | 703 |
 | **Weightage** | 5% |
-| **Measure** | Percentage |
+| **Measure** | percentage |
 | **Data Source** | JIRA |
 | **Frequency** | Monthly |
 | **Automation** | ✅ Automated |
@@ -40,7 +44,7 @@ This document provides comprehensive details for **18 Key Performance Indicators
 
 **📝 Description:** Ensure Pulse entries are updated regularly
 
-**🧮 Formula:** `% of hours utilized`
+**🧮 Formula:** `Compliance Rate (%) = Total Hours Reported in Pulse / Total Assigned Capacity Hours × 100`
 
 **📐 Calculation Details:**
 
@@ -54,21 +58,21 @@ This document provides comprehensive details for **18 Key Performance Indicators
 
 | Score | Condition | Threshold | Field |
 |-------|-----------|-----------|-------|
-| 🟢 5 | &gt;= (greater than or equal to) | 95 | pulseCompliance |
-| 🟢 4 | &gt;= (greater than or equal to) | 90 | pulseCompliance |
-| 🟡 3 | &gt;= (greater than or equal to) | 85 | pulseCompliance |
-| 🟠 2 | &gt;= (greater than or equal to) | 80 | pulseCompliance |
-| 🔴 1 | &gt; (greater than) | 80 | pulseCompliance |
+| 🟢 5 | &gt;= (greater than or equal to) | 95 |  |
+| 🟢 4 | &gt;= (greater than or equal to) | 90 |  |
+| 🟡 3 | &gt;= (greater than or equal to) | 85 |  |
+| 🟠 2 | &gt;= (greater than or equal to) | 80 |  |
+| 🔴 1 | &gt; (greater than) | 80 |  |
 
 ---
 
-### 📅 2. Attendance
+### 🔍 2. Attendance
 
 | Attribute | Value |
 |-----------|-------|
 | **KPI ID** | 704 |
 | **Weightage** | 5% |
-| **Measure** | Percentage |
+| **Measure** | percentage |
 | **Data Source** | JIRA |
 | **Frequency** | Monthly |
 | **Automation** | ✅ Automated |
@@ -76,7 +80,7 @@ This document provides comprehensive details for **18 Key Performance Indicators
 
 **📝 Description:** Compliance to attendance policies
 
-**🧮 Formula:** `% of working days marked`
+**🧮 Formula:** `NonCompliantDay = (No AttendanceRecord) AND (No LeaveRecord)`
 
 **📐 Calculation Details:**
 
@@ -90,21 +94,21 @@ This document provides comprehensive details for **18 Key Performance Indicators
 
 | Score | Condition | Threshold | Field |
 |-------|-----------|-----------|-------|
-| 🟢 5 | &gt;= (greater than or equal to) | 95 | Attendance |
-| 🟢 4 | &gt;= (greater than or equal to) | 90 | Attendance |
-| 🟡 3 | &gt;= (greater than or equal to) | 85 | Attendance |
-| 🟠 2 | &gt;= (greater than or equal to) | 80 | Attendance |
-| 🔴 1 | &gt; (greater than) | 80 | Attendance |
+| 🟢 5 | &gt;= (greater than or equal to) | 95 |  |
+| 🟢 4 | &gt;= (greater than or equal to) | 90 |  |
+| 🟡 3 | &gt;= (greater than or equal to) | 85 |  |
+| 🟠 2 | &gt;= (greater than or equal to) | 80 |  |
+| 🔴 1 | &gt; (greater than) | 80 |  |
 
 ---
 
-### 🎯 3. Test Case Effectiveness
+### 🧪 3. Test Case Effectiveness
 
 | Attribute | Value |
 |-----------|-------|
 | **KPI ID** | 705 |
 | **Weightage** | 5% |
-| **Measure** | Percentage |
+| **Measure** | percentage |
 | **Data Source** | JIRA |
 | **Frequency** | Per Sprint |
 | **Automation** | 👤 Manual |
@@ -122,21 +126,21 @@ This document provides comprehensive details for **18 Key Performance Indicators
 
 | Score | Condition | Threshold | Field |
 |-------|-----------|-----------|-------|
-| 🟢 5 | &gt;= (greater than or equal to) | 50 | testCaseEffectiveness |
-| 🟢 4 | &gt;= (greater than or equal to) | 40 | testCaseEffectiveness |
-| 🟡 3 | &gt;= (greater than or equal to) | 35 | testCaseEffectiveness |
-| 🟠 2 | &gt;= (greater than or equal to) | 30 | testCaseEffectiveness |
-| 🔴 1 | &gt; (greater than) | 30 | testCaseEffectiveness |
+| 🟢 5 | &gt;= (greater than or equal to) | 50 |  |
+| 🟢 4 | &gt;= (greater than or equal to) | 40 |  |
+| 🟡 3 | &gt;= (greater than or equal to) | 35 |  |
+| 🟠 2 | &gt;= (greater than or equal to) | 30 |  |
+| 🔴 1 | &gt; (greater than) | 30 |  |
 
 ---
 
-### ⚡ 4. QA Test Execution Time
+### 🧪 4. QA Test Execution Time
 
 | Attribute | Value |
 |-----------|-------|
 | **KPI ID** | 706 |
 | **Weightage** | 5% |
-| **Measure** | Count |
+| **Measure** | count |
 | **Data Source** | JIRA |
 | **Frequency** | Per Sprint |
 | **Automation** | 👤 Manual |
@@ -154,21 +158,21 @@ This document provides comprehensive details for **18 Key Performance Indicators
 
 | Score | Condition | Threshold | Field |
 |-------|-----------|-----------|-------|
-| 🟢 5 | &gt;= (greater than or equal to) | 25 | testExecutionTime |
-| 🟢 4 | &gt;= (greater than or equal to) | 20 | testExecutionTime |
-| 🟡 3 | &gt;= (greater than or equal to) | 15 | testExecutionTime |
-| 🟠 2 | &gt;= (greater than or equal to) | 10 | testExecutionTime |
-| 🔴 1 | &gt; (greater than) | 10 | testExecutionTime |
+| 🟢 5 | &gt;= (greater than or equal to) | 25 |  |
+| 🟢 4 | &gt;= (greater than or equal to) | 20 |  |
+| 🟡 3 | &gt;= (greater than or equal to) | 15 |  |
+| 🟠 2 | &gt;= (greater than or equal to) | 10 |  |
+| 🔴 1 | &gt; (greater than) | 10 |  |
 
 ---
 
-### ⚡ 5. Implementation Test Execution Time
+### 🧪 5. Implementation Test Execution Time
 
 | Attribute | Value |
 |-----------|-------|
 | **KPI ID** | 707 |
 | **Weightage** | 5% |
-| **Measure** | Count |
+| **Measure** | count |
 | **Data Source** | JIRA |
 | **Frequency** | Sit End |
 | **Automation** | 👤 Manual |
@@ -186,11 +190,11 @@ This document provides comprehensive details for **18 Key Performance Indicators
 
 | Score | Condition | Threshold | Field |
 |-------|-----------|-----------|-------|
-| 🟢 5 | &gt;= (greater than or equal to) | 25 | testExecutionTime |
-| 🟢 4 | &gt;= (greater than or equal to) | 20 | testExecutionTime |
-| 🟡 3 | &gt;= (greater than or equal to) | 15 | testExecutionTime |
-| 🟠 2 | &gt;= (greater than or equal to) | 10 | testExecutionTime |
-| 🔴 1 | &gt; (greater than) | 10 | testExecutionTime |
+| 🟢 5 | &gt;= (greater than or equal to) | 25 |  |
+| 🟢 4 | &gt;= (greater than or equal to) | 20 |  |
+| 🟡 3 | &gt;= (greater than or equal to) | 15 |  |
+| 🟠 2 | &gt;= (greater than or equal to) | 10 |  |
+| 🔴 1 | &gt; (greater than) | 10 |  |
 
 ---
 
@@ -200,7 +204,7 @@ This document provides comprehensive details for **18 Key Performance Indicators
 |-----------|-------|
 | **KPI ID** | 708 |
 | **Weightage** | 5% |
-| **Measure** | Count |
+| **Measure** | count |
 | **Data Source** | JIRA |
 | **Frequency** | Per Sprint |
 | **Automation** | ✅ Automated |
@@ -208,7 +212,7 @@ This document provides comprehensive details for **18 Key Performance Indicators
 
 **📝 Description:** Number of invalid bugs reported
 
-**🧮 Formula:** `# of Rejected Bugs`
+**🧮 Formula:** `Invalid Bug Count = Number of issues where Reporter = QIS and Closing_Reason ∈ {“Reject”, “Not a Bug”}`
 
 **📐 Calculation Details:**
 
@@ -222,11 +226,11 @@ This document provides comprehensive details for **18 Key Performance Indicators
 
 | Score | Condition | Threshold | Field |
 |-------|-----------|-----------|-------|
-| 🟢 5 | &lt;= (less than or equal to) | 2 | invalidBugsCount |
-| 🟢 4 | &lt;= (less than or equal to) | 4 | invalidBugsCount |
-| 🟡 3 | &lt;= (less than or equal to) | 6 | invalidBugsCount |
-| 🟠 2 | &lt;= (less than or equal to) | 8 | invalidBugsCount |
-| 🔴 1 | &gt; (greater than) | 8 | invalidBugsCount |
+| 🟢 5 | &lt;= (less than or equal to) | 2 |  |
+| 🟢 4 | &lt;= (less than or equal to) | 4 |  |
+| 🟡 3 | &lt;= (less than or equal to) | 6 |  |
+| 🟠 2 | &lt;= (less than or equal to) | 8 |  |
+| 🔴 1 | &gt; (greater than) | 8 |  |
 
 ---
 
@@ -236,7 +240,7 @@ This document provides comprehensive details for **18 Key Performance Indicators
 |-----------|-------|
 | **KPI ID** | 709 |
 | **Weightage** | 5% |
-| **Measure** | Count |
+| **Measure** | count |
 | **Data Source** | JIRA |
 | **Frequency** | Sit End |
 | **Automation** | 👤 Manual |
@@ -244,7 +248,7 @@ This document provides comprehensive details for **18 Key Performance Indicators
 
 **📝 Description:** Number of invalid bugs reported
 
-**🧮 Formula:** `# of Rejected Bugs`
+**🧮 Formula:** `Invalid Bug Count = Number of issues where Reporter = QIS and Closing_Reason ∈ {“Reject”, “Not a Bug”}`
 
 **📐 Calculation Details:**
 
@@ -258,21 +262,21 @@ This document provides comprehensive details for **18 Key Performance Indicators
 
 | Score | Condition | Threshold | Field |
 |-------|-----------|-----------|-------|
-| 🟢 5 | &lt;= (less than or equal to) | 2 | invalidBugsCount |
-| 🟢 4 | &lt;= (less than or equal to) | 4 | invalidBugsCount |
-| 🟡 3 | &lt;= (less than or equal to) | 6 | invalidBugsCount |
-| 🟠 2 | &lt;= (less than or equal to) | 8 | invalidBugsCount |
-| 🔴 1 | &gt; (greater than) | 8 | invalidBugsCount |
+| 🟢 5 | &lt;= (less than or equal to) | 2 |  |
+| 🟢 4 | &lt;= (less than or equal to) | 4 |  |
+| 🟡 3 | &lt;= (less than or equal to) | 6 |  |
+| 🟠 2 | &lt;= (less than or equal to) | 8 |  |
+| 🔴 1 | &gt; (greater than) | 8 |  |
 
 ---
 
-### ⏰ 8. QA SLA
+### 🔍 8. QA SLA
 
 | Attribute | Value |
 |-----------|-------|
 | **KPI ID** | 710 |
 | **Weightage** | 5% |
-| **Measure** | Percentage |
+| **Measure** | percentage |
 | **Data Source** | JIRA |
 | **Frequency** | Monthly |
 | **Automation** | ✅ Automated |
@@ -294,21 +298,21 @@ This document provides comprehensive details for **18 Key Performance Indicators
 
 | Score | Condition | Threshold | Field |
 |-------|-----------|-----------|-------|
-| 🟢 5 | &gt;= (greater than or equal to) | 95 | qaTAT |
-| 🟢 4 | &gt;= (greater than or equal to) | 90 | qaTAT |
-| 🟡 3 | &gt;= (greater than or equal to) | 85 | qaTAT |
-| 🟠 2 | &gt;= (greater than or equal to) | 80 | qaTAT |
-| 🔴 1 | &gt; (greater than) | 80 | qaTAT |
+| 🟢 5 | &gt;= (greater than or equal to) | 95 |  |
+| 🟢 4 | &gt;= (greater than or equal to) | 90 |  |
+| 🟡 3 | &gt;= (greater than or equal to) | 85 |  |
+| 🟠 2 | &gt;= (greater than or equal to) | 80 |  |
+| 🔴 1 | &gt; (greater than) | 80 |  |
 
 ---
 
-### 🔧 9. Production Patch Revert / Resubmission
+### 🔍 9. Production Patch Revert / Resubmission
 
 | Attribute | Value |
 |-----------|-------|
 | **KPI ID** | 711 |
 | **Weightage** | 5% |
-| **Measure** | Count |
+| **Measure** | count |
 | **Data Source** | JIRA |
 | **Frequency** | Quarterly |
 | **Automation** | ✅ Automated |
@@ -318,10 +322,6 @@ This document provides comprehensive details for **18 Key Performance Indicators
 
 **🧮 Formula:** `# of Impacted Patches / Total number of Patches sent`
 
-**📐 Calculation Details:**
-
-**Purpose:** Measure the proportion of production patches that are reverted or require a subsequent resubmission.<br /> <br />**Formula:** `Patch Revert Rate (%) = (Number of Impacted Patches / Total Patches Sent) × 100`<br /> <br />**Data Sources:** Jira; Level 0 Sub-status; Status change history<br /> <br />**Definition of Terms:** Total Patches Sent = issues with Level 0 Sub-status = “Patch Dispatched to client” or “Awaiting Client Response”; Impacted Patches = those sent patches whose status changed from “Level 0 – Client End” back to “Level 2 – Support Engineer” while still in a sent sub-status.<br /> <br />**Calculation Steps:** 1. Query Jira for “sent” patches;<br /> 2. Count these as Total Patches Sent;<br /> 3. Identify reverts via status history and count as Impacted Patches;<br /> 4. Compute rate using the formula;<br />
-
 **👥 Applicability:**
 
 - **Designation:** System Engineer
@@ -330,21 +330,21 @@ This document provides comprehensive details for **18 Key Performance Indicators
 
 | Score | Condition | Threshold | Field |
 |-------|-----------|-----------|-------|
-| 🟢 5 | &lt;= (less than or equal to) | 2 | productionPatchRevert |
-| 🟢 4 | &lt;= (less than or equal to) | 4 | productionPatchRevert |
-| 🟡 3 | &lt;= (less than or equal to) | 6 | productionPatchRevert |
-| 🟠 2 | &lt;= (less than or equal to) | 8 | productionPatchRevert |
-| 🔴 1 | &gt; (greater than) | 8 | productionPatchRevert |
+| 🟢 5 | &lt;= (less than or equal to) | 2 |  |
+| 🟢 4 | &lt;= (less than or equal to) | 4 |  |
+| 🟡 3 | &lt;= (less than or equal to) | 6 |  |
+| 🟠 2 | &lt;= (less than or equal to) | 8 |  |
+| 🔴 1 | &gt; (greater than) | 8 |  |
 
 ---
 
-### 📊 10. Test Coverage
+### 🧪 10. Test Coverage
 
 | Attribute | Value |
 |-----------|-------|
 | **KPI ID** | 712 |
 | **Weightage** | 5% |
-| **Measure** | Percentage |
+| **Measure** | percentage |
 | **Data Source** | JIRA |
 | **Frequency** | Per Sprint |
 | **Automation** | 👤 Manual |
@@ -362,21 +362,21 @@ This document provides comprehensive details for **18 Key Performance Indicators
 
 | Score | Condition | Threshold | Field |
 |-------|-----------|-----------|-------|
-| 🟢 5 | &gt;= (greater than or equal to) | 95 | testCoverage |
-| 🟢 4 | &gt;= (greater than or equal to) | 90 | testCoverage |
-| 🟡 3 | &gt;= (greater than or equal to) | 85 | testCoverage |
-| 🟠 2 | &gt;= (greater than or equal to) | 80 | testCoverage |
-| 🔴 1 | &gt; (greater than) | 80 | testCoverage |
+| 🟢 5 | &gt;= (greater than or equal to) | 95 |  |
+| 🟢 4 | &gt;= (greater than or equal to) | 90 |  |
+| 🟡 3 | &gt;= (greater than or equal to) | 85 |  |
+| 🟠 2 | &gt;= (greater than or equal to) | 80 |  |
+| 🔴 1 | &gt; (greater than) | 80 |  |
 
 ---
 
-### 🚨 11. Escape Defect Count SIT
+### 🐛 11. Escape Defect Count SIT
 
 | Attribute | Value |
 |-----------|-------|
 | **KPI ID** | 713 |
 | **Weightage** | 10% |
-| **Measure** | Percentage |
+| **Measure** | percentage |
 | **Data Source** | JIRA |
 | **Frequency** | Monthly |
 | **Automation** | ✅ Automated |
@@ -384,7 +384,7 @@ This document provides comprehensive details for **18 Key Performance Indicators
 
 **📝 Description:** Counts the number of defects that were not identified during testing but were discovered after the software was released. 
 
-**🧮 Formula:** `# of Defects per feature identified during SIT`
+**🧮 Formula:** `SIT Defect Count = Number of issues where Phase = SIT and Assigned To = target user`
 
 **📐 Calculation Details:**
 
@@ -398,21 +398,21 @@ This document provides comprehensive details for **18 Key Performance Indicators
 
 | Score | Condition | Threshold | Field |
 |-------|-----------|-----------|-------|
-| 🟢 5 | &lt;= (less than or equal to) | 2 | escapeDefectCountSIT |
-| 🟢 4 | &lt;= (less than or equal to) | 4 | escapeDefectCountSIT |
-| 🟡 3 | &lt;= (less than or equal to) | 6 | escapeDefectCountSIT |
-| 🟠 2 | &lt;= (less than or equal to) | 8 | escapeDefectCountSIT |
-| 🔴 1 | &gt; (greater than) | 8 | escapeDefectCountSIT |
+| 🟢 5 | &lt;= (less than or equal to) | 2 |  |
+| 🟢 4 | &lt;= (less than or equal to) | 4 |  |
+| 🟡 3 | &lt;= (less than or equal to) | 6 |  |
+| 🟠 2 | &lt;= (less than or equal to) | 8 |  |
+| 🔴 1 | &gt; (greater than) | 8 |  |
 
 ---
 
-### 🚨 12. Escape Defect Count UAT
+### 🐛 12. Escape Defect Count UAT
 
 | Attribute | Value |
 |-----------|-------|
 | **KPI ID** | 714 |
 | **Weightage** | 10% |
-| **Measure** | Percentage |
+| **Measure** | percentage |
 | **Data Source** | JIRA |
 | **Frequency** | Monthly |
 | **Automation** | ✅ Automated |
@@ -420,7 +420,7 @@ This document provides comprehensive details for **18 Key Performance Indicators
 
 **📝 Description:** Counts the number of defects that were not identified during testing but were discovered after the software was released. 
 
-**🧮 Formula:** `# of Defects per feature identified during UAT`
+**🧮 Formula:** `UAT Defect Count = Number of issues where Phase = UAT and Reporter = target user`
 
 **📐 Calculation Details:**
 
@@ -434,21 +434,21 @@ This document provides comprehensive details for **18 Key Performance Indicators
 
 | Score | Condition | Threshold | Field |
 |-------|-----------|-----------|-------|
-| 🟢 5 | &lt;= (less than or equal to) | 2 | escapeDefectCountUAT |
-| 🟢 4 | &lt;= (less than or equal to) | 4 | escapeDefectCountUAT |
-| 🟡 3 | &lt;= (less than or equal to) | 6 | escapeDefectCountUAT |
-| 🟠 2 | &lt;= (less than or equal to) | 8 | escapeDefectCountUAT |
-| 🔴 1 | &gt; (greater than) | 8 | escapeDefectCountUAT |
+| 🟢 5 | &lt;= (less than or equal to) | 2 |  |
+| 🟢 4 | &lt;= (less than or equal to) | 4 |  |
+| 🟡 3 | &lt;= (less than or equal to) | 6 |  |
+| 🟠 2 | &lt;= (less than or equal to) | 8 |  |
+| 🔴 1 | &gt; (greater than) | 8 |  |
 
 ---
 
-### 🤖 13. QA Test Case Automation
+### 🧪 13. QA Test Case Automation
 
 | Attribute | Value |
 |-----------|-------|
 | **KPI ID** | 715 |
 | **Weightage** | 5% |
-| **Measure** | Percentage |
+| **Measure** | percentage |
 | **Data Source** | JIRA |
 | **Frequency** | Monthly |
 | **Automation** | 👤 Manual |
@@ -466,21 +466,21 @@ This document provides comprehensive details for **18 Key Performance Indicators
 
 | Score | Condition | Threshold | Field |
 |-------|-----------|-----------|-------|
-| 🟢 5 | &gt;= (greater than or equal to) | 95 | testCaseAutomation |
-| 🟢 4 | &gt;= (greater than or equal to) | 90 | testCaseAutomation |
-| 🟡 3 | &gt;= (greater than or equal to) | 85 | testCaseAutomation |
-| 🟠 2 | &gt;= (greater than or equal to) | 80 | testCaseAutomation |
-| 🔴 1 | &gt; (greater than) | 80 | testCaseAutomation |
+| 🟢 5 | &gt;= (greater than or equal to) | 95 |  |
+| 🟢 4 | &gt;= (greater than or equal to) | 90 |  |
+| 🟡 3 | &gt;= (greater than or equal to) | 85 |  |
+| 🟠 2 | &gt;= (greater than or equal to) | 80 |  |
+| 🔴 1 | &gt; (greater than) | 80 |  |
 
 ---
 
-### 🤖 14. Implementation Test Case Automation
+### 🧪 14. Implementation Test Case Automation
 
 | Attribute | Value |
 |-----------|-------|
 | **KPI ID** | 716 |
 | **Weightage** | 5% |
-| **Measure** | Percentage |
+| **Measure** | percentage |
 | **Data Source** | JIRA |
 | **Frequency** | Monthly |
 | **Automation** | 👤 Manual |
@@ -498,21 +498,21 @@ This document provides comprehensive details for **18 Key Performance Indicators
 
 | Score | Condition | Threshold | Field |
 |-------|-----------|-----------|-------|
-| 🟢 5 | &gt;= (greater than or equal to) | 95 | testCaseAutomation |
-| 🟢 4 | &gt;= (greater than or equal to) | 90 | testCaseAutomation |
-| 🟡 3 | &gt;= (greater than or equal to) | 85 | testCaseAutomation |
-| 🟠 2 | &gt;= (greater than or equal to) | 80 | testCaseAutomation |
-| 🔴 1 | &gt; (greater than) | 80 | testCaseAutomation |
+| 🟢 5 | &gt;= (greater than or equal to) | 95 |  |
+| 🟢 4 | &gt;= (greater than or equal to) | 90 |  |
+| 🟡 3 | &gt;= (greater than or equal to) | 85 |  |
+| 🟠 2 | &gt;= (greater than or equal to) | 80 |  |
+| 🔴 1 | &gt; (greater than) | 80 |  |
 
 ---
 
-### 🏭 15. Post Production Defects
+### 🐛 15. Post Production Defects
 
 | Attribute | Value |
 |-----------|-------|
 | **KPI ID** | 717 |
 | **Weightage** | 5% |
-| **Measure** | Count |
+| **Measure** | count |
 | **Data Source** | JIRA |
 | **Frequency** | Post Production |
 | **Automation** | 👤 Manual |
@@ -530,21 +530,21 @@ This document provides comprehensive details for **18 Key Performance Indicators
 
 | Score | Condition | Threshold | Field |
 |-------|-----------|-----------|-------|
-| 🟢 5 | &lt;= (less than or equal to) | 2 | postProductionDefects |
-| 🟢 4 | &lt;= (less than or equal to) | 4 | postProductionDefects |
-| 🟡 3 | &lt;= (less than or equal to) | 6 | postProductionDefects |
-| 🟠 2 | &lt;= (less than or equal to) | 8 | postProductionDefects |
-| 🔴 1 | &gt; (greater than) | 8 | postProductionDefects |
+| 🟢 5 | &lt;= (less than or equal to) | 2 |  |
+| 🟢 4 | &lt;= (less than or equal to) | 4 |  |
+| 🟡 3 | &lt;= (less than or equal to) | 6 |  |
+| 🟠 2 | &lt;= (less than or equal to) | 8 |  |
+| 🔴 1 | &gt; (greater than) | 8 |  |
 
 ---
 
-### ⚡ 16. L2 SLA - S3 & S4
+### 🔍 16. L2 SLA - S3 & S4
 
 | Attribute | Value |
 |-----------|-------|
 | **KPI ID** | 718 |
 | **Weightage** | 5% |
-| **Measure** | Percentage |
+| **Measure** | percentage |
 | **Data Source** | JIRA |
 | **Frequency** | Monthly |
 | **Automation** | ✅ Automated |
@@ -552,7 +552,7 @@ This document provides comprehensive details for **18 Key Performance Indicators
 
 **📝 Description:** To measure SLA of Investigation once the issue is reported
 
-**🧮 Formula:** `SLA Achieved for tickets assigned`
+**🧮 Formula:** `SLA Achievement Rate (%) = (Tickets Resolved Within SLA / Total Tickets Assigned) × 100`
 
 **📐 Calculation Details:**
 
@@ -566,21 +566,21 @@ This document provides comprehensive details for **18 Key Performance Indicators
 
 | Score | Condition | Threshold | Field |
 |-------|-----------|-----------|-------|
-| 🟢 5 | &gt;= (greater than or equal to) | 95 | l2TAT |
-| 🟢 4 | &gt;= (greater than or equal to) | 90 | l2TAT |
-| 🟡 3 | &gt;= (greater than or equal to) | 85 | l2TAT |
-| 🟠 2 | &gt;= (greater than or equal to) | 80 | l2TAT |
-| 🔴 1 | &gt; (greater than) | 80 | l2TAT |
+| 🟢 5 | &gt;= (greater than or equal to) | 95 |  |
+| 🟢 4 | &gt;= (greater than or equal to) | 90 |  |
+| 🟡 3 | &gt;= (greater than or equal to) | 85 |  |
+| 🟠 2 | &gt;= (greater than or equal to) | 80 |  |
+| 🔴 1 | &gt; (greater than) | 80 |  |
 
 ---
 
-### 🔄 17. L2 Reassignment
+### 🔍 17. L2 Reassignment
 
 | Attribute | Value |
 |-----------|-------|
 | **KPI ID** | 719 |
 | **Weightage** | 5% |
-| **Measure** | Count |
+| **Measure** | count |
 | **Data Source** | JIRA |
 | **Frequency** | Monthly |
 | **Automation** | ✅ Automated |
@@ -588,7 +588,7 @@ This document provides comprehensive details for **18 Key Performance Indicators
 
 **📝 Description:** Number of reassigned tickets once the issue is identified as a bug and assigned to the QIS again
 
-**🧮 Formula:** `# of Reassigned Tickets / # of Tickets identified as bugs`
+**🧮 Formula:** `Ticket Reassignment Count = Total number of reassignment events where Assignment Level = 2 and Role after = any Level-2 role already in this ticket’s history`
 
 **📐 Calculation Details:**
 
@@ -602,21 +602,21 @@ This document provides comprehensive details for **18 Key Performance Indicators
 
 | Score | Condition | Threshold | Field |
 |-------|-----------|-----------|-------|
-| 🟢 5 | &lt;= (less than or equal to) | 2 | l2Reassignment |
-| 🟢 4 | &lt;= (less than or equal to) | 4 | l2Reassignment |
-| 🟡 3 | &lt;= (less than or equal to) | 6 | l2Reassignment |
-| 🟠 2 | &lt;= (less than or equal to) | 8 | l2Reassignment |
-| 🔴 1 | &gt; (greater than) | 8 | l2Reassignment |
+| 🟢 5 | &lt;= (less than or equal to) | 2 |  |
+| 🟢 4 | &lt;= (less than or equal to) | 4 |  |
+| 🟡 3 | &lt;= (less than or equal to) | 6 |  |
+| 🟠 2 | &lt;= (less than or equal to) | 8 |  |
+| 🔴 1 | &gt; (greater than) | 8 |  |
 
 ---
 
-### 🚨 18. S1 & S2 SLA
+### 🔍 18. S1 & S2 SLA
 
 | Attribute | Value |
 |-----------|-------|
 | **KPI ID** | 720 |
 | **Weightage** | 5% |
-| **Measure** | Percentage |
+| **Measure** | percentage |
 | **Data Source** | JIRA |
 | **Frequency** | Monthly |
 | **Automation** | ✅ Automated |
@@ -624,7 +624,7 @@ This document provides comprehensive details for **18 Key Performance Indicators
 
 **📝 Description:** To measure SLA of severity incidents
 
-**🧮 Formula:** `SLA Achieved for severity incidents`
+**🧮 Formula:** `SLA Achievement Rate (%) = (Tickets Resolved Within SLA / Total Tickets Assigned) × 100`
 
 **📐 Calculation Details:**
 
@@ -638,12 +638,18 @@ This document provides comprehensive details for **18 Key Performance Indicators
 
 | Score | Condition | Threshold | Field |
 |-------|-----------|-----------|-------|
-| 🟢 5 | &gt;= (greater than or equal to) | 95 | s1S2TAT |
-| 🟢 4 | &gt;= (greater than or equal to) | 90 | s1S2TAT |
-| 🟡 3 | &gt;= (greater than or equal to) | 85 | s1S2TAT |
-| 🟠 2 | &gt;= (greater than or equal to) | 80 | s1S2TAT |
-| 🔴 1 | &gt; (greater than) | 80 | s1S2TAT |
-
+| 🟢 5 | &gt;= (greater than or equal to) | 95 |  |
+| 🟢 4 | &gt;= (greater than or equal to) | 90 |  |
+| 🟡 3 | &gt;= (greater than or equal to) | 85 |  |
+| 🟠 2 | &gt;= (greater than or equal to) | 80 |  |
+| 🔴 1 | &gt; (greater than) | 80 |  |
 
 ---
-*This document was automatically generated from KPI specifications on July 09, 2025*
+
+
+## 📞 Support & Contact
+
+For questions about this QIS KPI documentation, please contact the Performance Management team.
+
+---
+*This document was automatically generated from QIS KPI specifications on July 15, 2025*
