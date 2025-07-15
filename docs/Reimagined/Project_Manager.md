@@ -1,8 +1,8 @@
-# 🎯 Project Manager KPI Reference Guide
+# 📋 Project Manager KPI Reference Guide
 
-*Generated on: July 15, 2025 at 02:57 PM*
+*Generated on: July 15, 2025 at 03:37 PM*
 
-## 🎯 Executive Summary
+## 📋 Executive Summary
 
 This document provides comprehensive details for **13 Key Performance Indicators (KPIs)** used to evaluate Project Manager performance for **Project Manager** role.
 

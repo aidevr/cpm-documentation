@@ -1,8 +1,8 @@
-# 🎯 QIS KPI Reference Guide
+# 🔍 QIS KPI Reference Guide
 
-*Generated on: July 15, 2025 at 03:02 PM*
+*Generated on: July 15, 2025 at 03:37 PM*
 
-## 🎯 Executive Summary
+## 🔍 Executive Summary
 
 This document provides comprehensive details for **18 Key Performance Indicators (KPIs)** used to evaluate QIS performance for **System Engineer** role.
 

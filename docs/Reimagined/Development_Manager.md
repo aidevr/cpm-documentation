@@ -1,8 +1,8 @@
-# 🎯 Development Manager KPI Reference Guide
+# 👨‍💻 Development Manager KPI Reference Guide
 
-*Generated on: July 15, 2025 at 02:57 PM*
+*Generated on: July 15, 2025 at 03:37 PM*
 
-## 🎯 Executive Summary
+## 👨‍💻 Executive Summary
 
 This document provides comprehensive details for **15 Key Performance Indicators (KPIs)** used to evaluate Development Manager performance for **Development Manager** role.
 
@@ -19,8 +19,8 @@ This document provides comprehensive details for **15 Key Performance Indicators
 - **Project-End:** 2 KPIs
 
 ### 💾 Data Sources
-- **Bi Dashboard:** 2 KPIs
-- **EPM Sharepoint:** 1 KPIs
+- **BI Dashboard:** 2 KPIs
+- **EPM:** 1 KPIs
 - **HR Dashboard:** 1 KPIs
 - **JIRA:** 5 KPIs
 - **MS Teams:** 1 KPIs
@@ -35,14 +35,14 @@ This document provides comprehensive details for **15 Key Performance Indicators
 
 ## 📋 Detailed KPI Specifications
 
-### 👨‍💻 1. KPI 1
+### 📊 1. Effort Variance
 
 | Attribute | Value |
 |-----------|-------|
 | **KPI ID** | N/A |
 | **Weightage** | 10% |
 | **Measure** | Percentage |
-| **Data Source** | EPM Sharepoint |
+| **Data Source** | EPM |
 | **Frequency** | Project-End |
 | **Automation** | ✅ Automated |
 | **Default Score** | 5 |
@@ -58,7 +58,7 @@ This document provides comprehensive details for **15 Key Performance Indicators
 
 ---
 
-### 👨‍💻 2. KPI 2
+### 👨‍💻 2. Technical Documentation Maintenance
 
 | Attribute | Value |
 |-----------|-------|
@@ -77,7 +77,7 @@ This document provides comprehensive details for **15 Key Performance Indicators
 
 ---
 
-### 👨‍💻 3. KPI 3
+### ✅ 3. Scope completion rate
 
 | Attribute | Value |
 |-----------|-------|
@@ -100,7 +100,7 @@ This document provides comprehensive details for **15 Key Performance Indicators
 
 ---
 
-### 👨‍💻 4. KPI 4
+### 🤖 4. Unit Case Automation
 
 | Attribute | Value |
 |-----------|-------|
@@ -119,7 +119,7 @@ This document provides comprehensive details for **15 Key Performance Indicators
 
 ---
 
-### 👨‍💻 5. KPI 5
+### 📈 5. SLA of Development
 
 | Attribute | Value |
 |-----------|-------|
@@ -142,7 +142,7 @@ This document provides comprehensive details for **15 Key Performance Indicators
 
 ---
 
-### 👨‍💻 6. KPI 6
+### 👨‍💻 6. S1 & S2 SLA
 
 | Attribute | Value |
 |-----------|-------|
@@ -165,14 +165,14 @@ This document provides comprehensive details for **15 Key Performance Indicators
 
 ---
 
-### 👨‍💻 7. KPI 7
+### 📈 7. On-Time Project Development Completion
 
 | Attribute | Value |
 |-----------|-------|
 | **KPI ID** | N/A |
 | **Weightage** | 7% |
 | **Measure** | Percentage |
-| **Data Source** | Bi Dashboard |
+| **Data Source** | BI Dashboard |
 | **Frequency** | Annually |
 | **Automation** | 👤 Manual |
 | **Default Score** | 5 |
@@ -188,14 +188,14 @@ This document provides comprehensive details for **15 Key Performance Indicators
 
 ---
 
-### 👨‍💻 8. KPI 8
+### 📈 8. On-Time CRF Development Completion
 
 | Attribute | Value |
 |-----------|-------|
 | **KPI ID** | N/A |
 | **Weightage** | 5% |
 | **Measure** | Percentage |
-| **Data Source** | Bi Dashboard |
+| **Data Source** | BI Dashboard |
 | **Frequency** | Annually |
 | **Automation** | 👤 Manual |
 | **Default Score** | 5 |
@@ -207,7 +207,7 @@ This document provides comprehensive details for **15 Key Performance Indicators
 
 ---
 
-### 👨‍💻 9. KPI 9
+### 👨‍💻 9. Production Patch Revert / Resubmission
 
 | Attribute | Value |
 |-----------|-------|
@@ -230,7 +230,7 @@ This document provides comprehensive details for **15 Key Performance Indicators
 
 ---
 
-### 👨‍💻 10. KPI 10
+### 👨‍💻 10. Task Management on TFS
 
 | Attribute | Value |
 |-----------|-------|
@@ -253,7 +253,7 @@ This document provides comprehensive details for **15 Key Performance Indicators
 
 ---
 
-### 👨‍💻 11. KPI 11
+### 👨‍💻 11. WBS
 
 | Attribute | Value |
 |-----------|-------|
@@ -276,7 +276,7 @@ This document provides comprehensive details for **15 Key Performance Indicators
 
 ---
 
-### 👨‍💻 12. KPI 12
+### 🐛 12. Bug Rate per resource
 
 | Attribute | Value |
 |-----------|-------|
@@ -299,7 +299,7 @@ This document provides comprehensive details for **15 Key Performance Indicators
 
 ---
 
-### 👨‍💻 13. KPI 13
+### 🐛 13. Critical Bug Rate
 
 | Attribute | Value |
 |-----------|-------|
@@ -322,7 +322,7 @@ This document provides comprehensive details for **15 Key Performance Indicators
 
 ---
 
-### 👨‍💻 14. KPI 14
+### 👥 14. Employee Retention Rate
 
 | Attribute | Value |
 |-----------|-------|
@@ -341,7 +341,7 @@ This document provides comprehensive details for **15 Key Performance Indicators
 
 ---
 
-### 👨‍💻 15. KPI 15
+### 😊 15. Team satisfaction on the project delivered
 
 | Attribute | Value |
 |-----------|-------|

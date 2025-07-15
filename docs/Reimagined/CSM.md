@@ -1,8 +1,8 @@
-# 🎯 CSM KPI Reference Guide
+# 👨‍💼 CSM KPI Reference Guide
 
-*Generated on: July 15, 2025 at 02:57 PM*
+*Generated on: July 15, 2025 at 03:37 PM*
 
-## 🎯 Executive Summary
+## 👨‍💼 Executive Summary
 
 This document provides comprehensive details for **24 Key Performance Indicators (KPIs)** used to evaluate CSM performance for **CSM** role.
 
