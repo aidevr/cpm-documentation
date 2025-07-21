@@ -70,8 +70,8 @@ No. Adding or removing a KPI requires a **development change** and redeployment 
 ---
 
 ### 8. How can I report an issue with my score?  
-1. Discuss the discrepancy with your **supervisor**.  
-2. If confirmed, open a **JIRA ticket** in POL and attach supporting evidence (task IDs, screenshots).
+1. **Discuss the discrepancy with your supervisor.**  
+2. **If confirmed, open a JIRA ticket** in POL and attach supporting evidence (task IDs, screenshots).
 
 ---
 
@@ -142,40 +142,30 @@ If they differ, notify your **supervisor** and request an update of your JIRA/TF
 ---
 
 ### 15. How do we track tasks put **On Hold**?  
-When a TFS task is paused
+When a TFS task is paused:
 
-1. Change the task status to **On Hold**.  
-2. System to record **Hold-Start** and **Hold-End** dates.  
+1. **Change the task status to "On Hold".**  
+2. **System records Hold-Start and Hold-End dates.**  
 
- Hold time will be excluded from all cycle-time KPIs. Currently, the hold is required to be added in the system and system will handle the hold state accordingly.
+Hold time will be excluded from all cycle-time KPIs. Currently, the hold status is required to be added in the system and the system will handle the hold state accordingly.
 
 ---
 
 ### 16. What happens if a JIRA issue has multiple **Level-3** assignees?  
 The KPI engine will soon credit **all** L3 assignees—not just the most recent one.  
-This is scheduled as an enhancement before August 2025.
-Currently the last assignee to work on it will be impacted. 
+This is scheduled as an enhancement before August 2025.  
+Currently, the last assignee to work on it will be impacted. 
 
 ---
 
-### 17. Is an **Original Estimate** mandatory?
+### 17. Is an **Original Estimate** mandatory?  
 Yes. Every task must have an **Original Estimate** at creation time.  
-Blank estimates will impact Time consumption KPI adversely.
+Blank estimates will impact Time Consumption KPI adversely.
 
 ---
 
 ### 18. How are **work-item assignee changes** handled in TFS?  
 An enhancement—subject to discussion and approval with the Heads of Department—will capture work-item assignment events so all interim assignees receive credit. Until that feature is released, KPI impact is applied only to the assignee recorded at completion time.
-
-
-
-
-
-
-
-
-
-.
 
 
 
