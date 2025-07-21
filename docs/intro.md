@@ -19,7 +19,7 @@ Welcome to the **Continuous Performance Management (CPM) System** documentation.
 
 ## 🎯 Introduction
 
-The CPM System aims to streamline and automate the employee appraisal process, enabling organizations to evaluate employee performance efficiently, fairly, and transparently using data-driven evaluations. The system addresses challenges associated with manual appraisal processes, which are often time-consuming, subjective, and difficult to justify.
+The CPM System aims to streamline and automate the employee appraisal process, enabling organizations to evaluate employee performance efficiently, fairly, and transparently using data-driven insights. The system addresses challenges associated with manual appraisal processes, which are often time-consuming, subjective, and difficult to justify.
 
 By providing clear performance insights, the CPM system ensures that employees have a transparent view of their standing within the organization. This reduces ambiguity, minimizes irrational expectations, and fosters a culture of accountability and growth.
 
@@ -31,7 +31,7 @@ By providing clear performance insights, the CPM system ensures that employees h
     <ul>
       <li>Annual reviews are too infrequent to be effective</li>
       <li>Manual processes are time-consuming and subjective</li>
-      <li>Feedback loses relevance over time</li>
+      <li>Feedback becomes less relevant over time</li>
       <li>Employees lack clarity on expectations</li>
       <li>Managers struggle with meaningful conversations</li>
       <li>Difficulty in justifying performance decisions</li>
@@ -44,7 +44,7 @@ By providing clear performance insights, the CPM system ensures that employees h
       <li>Transparent communication</li>
       <li>Automation and efficiency</li>
       <li>Data-driven insights</li>
-      <li>Real-time feedback</li>
+      <li>Continuous feedback</li>
       <li>Objective performance metrics</li>
     </ul>
   </div>
