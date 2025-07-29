@@ -167,6 +167,18 @@ Blank estimates will impact Time consumption KPI adversely.
 ### 18. How are **work-item assignee changes** handled in TFS?  
 An enhancement—subject to discussion and approval with the Heads of Department—will capture work-item assignment events so all interim assignees receive credit. Until that feature is released, KPI impact is applied only to the assignee recorded at completion time.
 
+---
+
+### 19. How can I share suggestions or report a system-related issue?
+A dedicated JIRA Service Desk has been set up for this purpose. You can submit your feedback, suggestions, or report any issues using the following link:
+
+👉[Submit via JIRA](https://digitaltpsworldwide.atlassian.net/servicedesk/customer/portal/72/group/545/create/1594)
+
+
+---
+
+### 20. I am unable to access the CPM system. What should I do?  
+Access to the CPM system requires a secure connection via the TPS VPN. Please ensure you are connected to the TPS VPN before attempting to log in. This is a standard security requirement of the CPM system.
 
 
 
