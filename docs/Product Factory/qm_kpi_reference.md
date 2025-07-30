@@ -1,6 +1,6 @@
 # QA KPI Reference
 
-_Auto-generated: **do not edit by hand**_
+_Auto-generated: **do not edit manually**_
 
 ## Legend
 
@@ -12,7 +12,7 @@ _Auto-generated: **do not edit by hand**_
 | **Automated** | KPI calculated automatically from data sources |
 
 ## Time Consumption (TFS)
-Percentage of estimated time actually used to complete task(s)
+Percentage of estimated time actually used to complete tasks
 
 - **Data Source:** TFS
 - **Measure:** Percentage
@@ -29,10 +29,10 @@ Percentage of estimated time actually used to complete task(s)
 
 | Rule | Details | Example |
 |------|---------|---------|
-| **Working-day definition** | 1 business day = **8 weekday hours**. A "2 d" estimate therefore equals **16 h**. | "2 d" on the ticket -> 16 h budget |
-| **Measured duration** | Elapsed time is counted **only while the task is "In Progress,"** summing weekday work-hours. | Started Tue 09:00, finished Wed 17:00 -> 16 h |
-| **QA Task Tracking** | Time is tracked specifically for QA testing activities including test case execution, bug verification, and UAT support. | QA testing phase: 24h estimated, 30h actual -> 125% consumption |
-| **Weekend handling** | Saturdays & Sundays are **ignored** when measuring schedule overruns. | Due Fri, closed Mon -> overrun = **1 business day** (8 h), *not* 3 calendar days |
+| **Working-day definition** | 1 business day = **8 weekday hours**. A "2 d" estimate therefore equals **16 h**. | "2 d" on the ticket → 16 h budget |
+| **Measured duration** | Elapsed time is counted **only while the task is "In Progress,"** summing weekday work-hours. | Started Tue 09:00, finished Wed 17:00 → 16 h |
+| **QA Task Tracking** | Time is tracked specifically for QA testing activities including test case execution, bug verification, and UAT support. | QA testing phase: 24h estimated, 30h actual → 125% consumption |
+| **Weekend handling** | Saturdays & Sundays are **excluded** when measuring schedule overruns. Only business days count toward overrun calculations. | Due Fri, closed Mon → overrun = **1 business day** (8 h), *not* 3 calendar days |
 
 
 ### Level 1 Scoring Rules
@@ -98,11 +98,11 @@ Percentage of estimated time actually used to complete task(s)
 ---
 
 ## Defect Density (JIRA)
-The number of defects reported in SIT/UAT/Production
+The number of defects reported in SIT/UAT/Production environments
 
 - **Data Source:** JIRA
 - **Measure:** Count
-- **Formula:** `The number of defects reported in SIT/UAT/Production`
+- **Formula:** `The number of defects reported in SIT/UAT/Production environments`
 - **Automated:** ✅ Yes
 
 **Weightage by Level**
@@ -123,8 +123,8 @@ This mapping helps determine the number of defects per module relative to the QA
 |------|---------|
 | **Module Mapping** | Jira defect module field is matched against TFS task modules to identify QA scope |
 | **Time Window** | Only TFS tasks completed in the past 6 months are considered for defect density calculation |
-| **Calculation** | Defect Density = Number of defects in module in production QA'ed by particular resource in TFS
-| **Defect Types** | Production environments |
+| **Calculation Method** | Defect Density = Number of defects in module in production environments for tasks QA'ed by the specific resource in TFS |
+| **Environment Scope** | Covers SIT, UAT, and Production environments |
 
 
 ### Level 2 Scoring Rules
@@ -198,7 +198,7 @@ Number of missed test cases
 | Rule | Details |
 |------|---------|
 | **Missed Cases Identification** | Each comment by QA against a test case indicates a missed scenario or inadequate coverage |
-| **Comment Count** | Number of  Comments = missed test cases |
+| **Comment Count Method** | Number of Comments = Number of missed test cases |
 | **Scoring Impact** | Higher number of missed cases results in lower quality scores |
 
 ### Level 2 Scoring Rules
