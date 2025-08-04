@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Streamlined Appraisals',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/streamlined_appraisals.svg').default,
     description: (
       <>
         CPM simplifies the employee appraisal process with automated workflows,
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Continuous Monitoring',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/continuous_monitoring.svg').default,
     description: (
       <>
         Monitor employee performance continuously throughout the year with 
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Goal-Oriented Management',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/goal_oriented_management.svg').default,
     description: (
       <>
         Set, track, and achieve organizational and individual goals with 
