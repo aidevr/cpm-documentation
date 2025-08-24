@@ -13,7 +13,7 @@ Visit the live documentation at: [https://aidevr.github.io/cpm-documentation/](h
 The CPM System is designed to:
 - **Automate** manual appraisal processes
 - **Improve transparency** in employee evaluations
-- **Enable data-driven decision-making** for HR
+- **Enable data-driven decision making** for HR
 - **Provide actionable insights** for managers
 - **Foster accountability** and growth culture
 
@@ -67,7 +67,7 @@ If you need to deploy manually:
 
 ```bash
 # Deploy to GitHub Pages
-GIT_USER=<Your GitHub username> yarn deploy
+GIT_USER=<Your_GitHub_username> yarn deploy
 ```
 
 ## 📝 Contributing
@@ -83,7 +83,7 @@ GIT_USER=<Your GitHub username> yarn deploy
 
 - `/docs/` - Main documentation content
   - `intro.md` - Introduction and overview
-  - `Product_Factory/` - Product development specific guides
+  - `Product Factory/` - Product development specific guides
 - `/blog/` - Blog posts and updates
 - `/src/` - Custom React components and styles
 - `/static/` - Static assets (images, files, etc.)

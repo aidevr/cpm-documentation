@@ -1,6 +1,6 @@
 # Developer KPI Reference
 
-_Auto-generated: **do not edit by hand**_
+_Auto-generated: **do not edit manually**_
 
 ## Legend
 
@@ -11,7 +11,7 @@ _Auto-generated: **do not edit by hand**_
 | **Levels** | 2 = Junior … 6 = Principal |
 
 ## Time Consumption (TFS)
-Percentage of estimated time actually used to complete task(s)
+Percentage of estimated time actually used to complete tasks
 
 - **Data Source:** TFS
 - **Measure:** Percentage
@@ -27,10 +27,10 @@ Percentage of estimated time actually used to complete task(s)
 
 | Rule | Details | Example |
 |------|---------|---------|
-| **Working-day definition** | 1 business day = **8 weekday hours**. A "2 d" estimate therefore equals **16 h**. | "2 d" on the ticket -> 16 h budget |
-| **Measured duration** | Elapsed time is counted **only while the task is "In Progress,"** summing weekday work-hours. | Started Tue 09:00, finished Wed 17:00 -> 16 h |
-| **Within-estimate rule** | If the task finishes **on or before its target end-date,** it is treated as on-estimate—even if the logged hours exceed the nominal budget. | Budget 16 h, logged 20 h, closed Fri EOD -> **still on-estimate** |
-| **Weekend handling** | Saturdays & Sundays are **ignored** when measuring schedule overruns. | Due Fri, closed Mon -> overrun = **1 business day** (8 h), *not* 3 calendar days |
+| **Working-day definition** | 1 business day = **8 weekday hours**. A "2 d" estimate therefore equals **16 h**. | "2 d" on the ticket → 16 h budget |
+| **Measured duration** | Elapsed time is counted **only while the task is "In Progress,"** summing weekday work-hours. | Started Tue 09:00, finished Wed 17:00 → 16 h |
+| **Within-estimate rule** | If the task finishes **on or before its target end-date,** it is treated as on-estimate—even if the logged hours exceed the nominal budget. | Budget 16 h, logged 20 h, closed Fri EOD → **still on-estimate** |
+| **Weekend handling** | Saturdays & Sundays are **excluded** when measuring schedule overruns. Only business days count toward overrun calculations. | Due Fri, closed Mon → overrun = **1 business day** (8 h), *not* 3 calendar days |
 
 
 ### Level 1 Scoring Rules
@@ -86,11 +86,11 @@ Percentage of estimated time actually used to complete task(s)
 ---
 
 ## Number of Critical Severity Bugs (TFS)
-Number of critical severity bugs reported in task(s)
+Number of critical severity bugs reported in tasks
 
 - **Data Source:** TFS
 - **Measure:** Count
-- **Formula:** `Number of critical severity bugs reported in task(s)`
+- **Formula:** `Number of critical severity bugs reported in tasks`
 
 **Weightage by Level**
 | kpi_unique_name                        | 1   |   2 |   3 |   4 |   5 |
@@ -102,8 +102,8 @@ Number of critical severity bugs reported in task(s)
 
 | Rule | Details |
 |------|---------|
-| **Bug Assignment** | Every reported bug must be linked to the parent task in which it was found, and the KPI impact will be assigned to that task's assignee. |
-| **Feature Size** | Feature size should be categorized as BIG, MEDIUM, or SMALL in TFS. Currently, this classification is not implemented, and all features are considered MEDIUM by default. |
+| **Bug Assignment** | Every reported bug must be linked to the parent task in which it was found. The KPI impact will be assigned to that task's assignee. |
+| **Feature Size Classification** | Feature size should be categorized as BIG (3), MEDIUM (2), or SMALL (1) in TFS. Currently, this classification is not implemented, and all features are considered MEDIUM (2) by default. |
 | **Impact Calculation** | Bug counts are aggregated per assignee based on the feature size of the parent task where the bug was discovered. |
 
 
@@ -190,11 +190,11 @@ Number of critical severity bugs reported in task(s)
 ---
 
 ## Number of Medium Severity Bugs (TFS)
-Number of medium severity bugs reported in task(s)
+Number of medium severity bugs reported in tasks
 
 - **Data Source:** TFS
 - **Measure:** Count
-- **Formula:** `Number of medium severity bugs reported in task(s)`
+- **Formula:** `Number of medium severity bugs reported in tasks`
 
 **Weightage by Level**
 | kpi_unique_name                      | 1   |   2 |   3 |   4 |   5 |
@@ -294,11 +294,11 @@ Number of medium severity bugs reported in task(s)
 ---
 
 ## Number of Low Severity Bugs (TFS)
-Number of low severity bugs reported in task(s)
+Number of low severity bugs reported in tasks
 
 - **Data Source:** TFS
 - **Measure:** Count
-- **Formula:** `Number of low severity bugs reported in task(s)`
+- **Formula:** `Number of low severity bugs reported in tasks`
 
 **Weightage by Level**
 | kpi_unique_name                   | 1   |   2 |   3 |   4 |   5 |
@@ -398,11 +398,11 @@ Number of low severity bugs reported in task(s)
 ---
 
 ## Number of High Severity Bugs (TFS)
-Number of high severity bugs reported in task(s)
+Number of high severity bugs reported in tasks
 
 - **Data Source:** TFS
 - **Measure:** Count
-- **Formula:** `Number of high severity bugs reported in task(s)`
+- **Formula:** `Number of high severity bugs reported in tasks`
 
 **Weightage by Level**
 | kpi_unique_name                    | 1   |   2 |   3 |   4 |   5 |
@@ -502,11 +502,11 @@ Number of high severity bugs reported in task(s)
 ---
 
 ## Code Review Comments (TFS)
-Number of comments by reviewer on pull request(s)
+Number of comments by reviewer on pull requests
 
 - **Data Source:** TFS
 - **Measure:** Count
-- **Formula:** `Number of comments by reviewer on pull request(s)`
+- **Formula:** `Number of comments by reviewer on pull requests`
 
 **Weightage by Level**
 | kpi_unique_name            | 1   |   2 |   3 |   4 |   5 |
@@ -596,11 +596,11 @@ Number of comments by reviewer on pull request(s)
 ---
 
 ## SonarQube Comments (TFS)
-Number of comments by SonarQube on pull request(s)
+Number of comments by SonarQube on pull requests
 
 - **Data Source:** TFS
 - **Measure:** Count
-- **Formula:** `Number of comments by SonarQube on pull request(s)`
+- **Formula:** `Number of comments by SonarQube on pull requests`
 
 **Weightage by Level**
 | kpi_unique_name          | 1   |   2 |   3 |   4 |   5 |
@@ -690,7 +690,7 @@ Number of comments by SonarQube on pull request(s)
 ---
 
 ## Time Consumption (JIRA)
-Percentage of estimated time actually used to complete task(s)
+Percentage of estimated time actually used to complete tasks
 
 - **Data Source:** JIRA
 - **Measure:** Percentage
@@ -706,10 +706,10 @@ Percentage of estimated time actually used to complete task(s)
 
 | Rule | Details | Example |
 |------|---------|---------|
-| **Time Measurement** | Time taken is measured against the SLA (Service Level Agreement) for the task. | Task SLA: 2 days, actual time: 3 days -> overrun |
-| **Assignee Impact** | Currently, only the **last assignee** of a task is affected by time consumption metrics. | Task reassigned from Dev A to Dev B -> only Dev B's KPI is impacted |
+| **Time Measurement** | Time taken is measured against the SLA (Service Level Agreement) for the task. | Task SLA: 2 days, actual time: 3 days → overrun |
+| **Assignee Impact** | Currently, only the **last assignee** of a task is affected by time consumption metrics. | Task reassigned from Dev A to Dev B → only Dev B's KPI is impacted |
 | **Future Enhancement** | The system will be updated to track time consumption for **all assignees** who worked on the task, proportional to their involvement. | *Pending implementation* |
-| **SLA Calculation** | Time consumption percentage is calculated as: (Actual Time / SLA Time) × 100% | SLA: 16h, Actual: 20h -> 125% time consumption |
+| **SLA Calculation** | Time consumption percentage is calculated as: (Actual Time / SLA Time) × 100% | SLA: 16h, Actual: 20h → 125% time consumption |
 
 
 ### Level 2 Scoring Rules
